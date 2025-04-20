@@ -88,7 +88,7 @@ export default function AnalysisPage() {
                   <SelectValue placeholder="Time Range" />
                 </SelectTrigger>
                 <SelectContent className="bg-surveil-dark-300 border-surveil-dark-200">
-                  <SelectItem value="24h">Last 24 Hours</SelectItem>
+                  <SelectItem value="24h">Last 12 Hours</SelectItem>
                   <SelectItem value="7d">Last 7 Days</SelectItem>
                   <SelectItem value="30d">Last 30 Days</SelectItem>
                   <SelectItem value="custom">Custom Range</SelectItem>
