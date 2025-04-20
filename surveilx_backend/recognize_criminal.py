@@ -17,7 +17,7 @@ db = mysql.connector.connect(
 cursor = db.cursor()
 
 # Path to images
-CRIMINALS_PATH = r"C:\Users\Cinepix\Downloads\AI based Surveillance System\surveilx_backend\Bhavya"
+CRIMINALS_PATH = r"C:\Users\Cinepix\Downloads\AI based Surveillance System\surveilx_backend\Missing People"
 
 # Step 1: Add new images to the database
 for person_name in os.listdir(CRIMINALS_PATH):
